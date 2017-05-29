@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from '../../assets/logo.svg';
 import './App.css';
 
+import { createBucket, copyObject } from '../../utils/aws';
+
 class App extends Component {
   render() {
     return (
@@ -11,8 +13,10 @@ class App extends Component {
           <h2>Welcome to React</h2>
         </div>
         <p className="App-intro">
-          To get started, edit <code>App.js</code> and save to reload.
+          To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <button onClick={() => createBucket()}>Create Bucket in S3</button>
+        <button onClick={() => copyObject()}>Copy picture from S3</button>
       </div>
     );
   }
