@@ -23,3 +23,12 @@ body,
   position: absolute;
   top: 15px;
 }
+
+.header-buttons {
+  margin: auto;
+  padding-top: 20px;
+}
+
+.header-buttons i {
+  font-size: 32px;
+}
