@@ -1,24 +1,25 @@
-.App {
-  text-align: center;
+html,
+body,
+#root {
+  height: 100%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.App {
+  text-align: center;
+  height: 100%;
 }
 
 .App-header {
   background-color: #222;
-  height: 150px;
-  padding: 20px;
   color: white;
+  height: 5rem;
+  /*padding: 20px;*/
 }
 
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.header-logo {
+  font-size: 45px;
+  font-family: 'Droid Sans', sans-serif;
+  left: 15px;
+  position: absolute;
+  top: 15px;
 }
