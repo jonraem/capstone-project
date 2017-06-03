@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import './VideoPlayer.css';
 
 class VideoPlayer extends Component {
   render() {
