@@ -1,7 +1,7 @@
 import AWS from 'aws-sdk';
 import uuid from 'uuid';
 
-const myCredentials = new AWS.Credentials('AKIAIHJJ3XE7VOUMMARQ', 'J1wGMhML5zFhYumfV96vIewWDMLMR0VzOKjRcNxw', null);
+// const myCredentials = new AWS.Credentials('mock-key', 'mock-secret-key', null);
 const s3 = new AWS.S3({credentials: myCredentials, region: 'us-east-1'});
 
 export function createBucket () {
