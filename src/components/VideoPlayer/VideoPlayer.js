@@ -6,8 +6,11 @@ class VideoPlayer extends Component {
   render() {
     return (
       <div className="VideoPlayer">
-        <img alt='Video Thumbnail' src={require('../../assets/dog.png')} />
-        <p>Hello.</p>
+        <div className="VideoPlayer-view">
+          {/* <img alt='Video Thumbnail' src={require('../../assets/dog.png')} className="thumbnail" /> */}
+          <img alt='Video Thumbnail' src={require('../../assets/dog-tennis-olympics.jpg')} className="thumbnail" />
+          <img alt='Tennis ball' src={require('../../assets/tennis-ball.png')} className="tennis-ball" />
+        </div>
       </div>
     );
   }

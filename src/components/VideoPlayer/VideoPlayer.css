@@ -1,5 +1,24 @@
-.VideoPlayer img {
+.VideoPlayer-view {
+  position: relative;
+  height: 22rem;
+  margin: 3rem;
+}
+
+.thumbnail {
   border: 1px solid #DEDEDD;
   border-radius: 2px;
-  margin: 3rem;
+  max-height: 22rem;
+}
+
+.tennis-ball {
+  animation: spin 2s linear infinite;
+  max-height: 4rem;
+  position: absolute;
+  right: 30%;
+  top: 4rem;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
