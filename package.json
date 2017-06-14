@@ -2,6 +2,7 @@
   "name": "capstone-project",
   "version": "0.1.0",
   "private": true,
+  "main": "src/index.js",
   "dependencies": {
     "aws-sdk": "^2.58.0",
     "react": "^15.5.4",
