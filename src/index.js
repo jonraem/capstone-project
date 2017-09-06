@@ -1,11 +1,23 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { config } from 'dotenv';
+import React from 'react'
+import { render } from 'react-dom'
+import { Provider } from 'react-redux'
+import { ConnectedRouter } from 'react-router-redux'
 import registerServiceWorker from './utils/registerServiceWorker';
-import './index.css';
+import store, { history } from './store'
+import { config } from 'dotenv';
 
-import App from './components/App/App';
+import App from './containers/App';
+import './index.css'
 
 config();
-ReactDOM.render(<App />, document.getElementById('root'));
+render(
+  <Provider store={store}>
+    <ConnectedRouter history={history}>
+      <div>
+        <App />
+      </div>
+    </ConnectedRouter>
+  </Provider>,
+  document.querySelector('#root')
+);
 registerServiceWorker();
