@@ -1,7 +1,7 @@
 .VideoPlayer-view {
-  position: relative;
   height: 22rem;
   margin: 3rem;
+  position: relative;
 }
 
 .thumbnail {

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
-import './VideoPlayer.css';
+import { createBucket, copyObject } from '../../utils/aws';
+import './index.css';
 
 class VideoPlayer extends Component {
   render() {
@@ -11,6 +12,8 @@ class VideoPlayer extends Component {
           <img alt='Video Thumbnail' src={require('../../assets/dog-tennis-olympics.jpg')} className="thumbnail" />
           <img alt='Tennis ball' src={require('../../assets/tennis-ball.png')} className="tennis-ball" />
         </div>
+        <button onClick={() => createBucket()}>Create Bucket in S3</button>
+        <button onClick={() => copyObject()}>Copy picture from S3</button>
       </div>
     );
   }
