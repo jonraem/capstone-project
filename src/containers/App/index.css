@@ -1,12 +1,6 @@
-html,
-body,
-#root {
-  height: 100%;
-}
-
 .App {
-  text-align: center;
   height: 100%;
+  text-align: center;
 }
 
 .App-header {
@@ -17,8 +11,9 @@ body,
 }
 
 .header-logo {
-  font-size: 45px;
+  color: white;
   font-family: 'Droid Sans', sans-serif;
+  font-size: 45px;
   left: 15px;
   position: absolute;
   top: 15px;
@@ -30,5 +25,10 @@ body,
 }
 
 .header-buttons i {
+  border: 1px solid white;
+  border-radius: 5px;
+  color: white;
   font-size: 32px;
+  margin-right: 5px;
+
 }
