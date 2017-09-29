@@ -1,0 +1,37 @@
+.App-header {
+    background-color: #222;
+    color: white;
+    height: 5rem;
+    /*padding: 20px;*/
+}
+
+.header-logo {
+    color: white;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 45px;
+    left: 15px;
+    position: absolute;
+    top: 15px;
+}
+
+.header-buttons {
+    margin: auto;
+    padding-top: 20px;
+}
+
+.header-button {
+    margin-right: 1.5rem;
+    text-decoration: none;
+}
+
+.header-button i {
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 2rem;
+}
+
+.header-button span {
+    color: white;
+    font-size: 1.25rem;
+}

@@ -2,33 +2,3 @@
   height: 100%;
   text-align: center;
 }
-
-.App-header {
-  background-color: #222;
-  color: white;
-  height: 5rem;
-  /*padding: 20px;*/
-}
-
-.header-logo {
-  color: white;
-  font-family: 'Droid Sans', sans-serif;
-  font-size: 45px;
-  left: 15px;
-  position: absolute;
-  top: 15px;
-}
-
-.header-buttons {
-  margin: auto;
-  padding-top: 20px;
-}
-
-.header-buttons i {
-  border: 1px solid white;
-  border-radius: 5px;
-  color: white;
-  font-size: 32px;
-  margin-right: 5px;
-
-}
