@@ -10,7 +10,7 @@ class VideoPlayer extends Component {
     return (
       <div className="VideoPlayer">
         <div className="VideoPlayer-view">
-          <video src={require('../../assets/video_1.mp4')} type="video/mp4" width="640" height="480" controls />
+          <video src={'http://vss2017.oss-cn-shanghai.aliyuncs.com/vid.mp4'} type="video/mp4" width="640" height="480" controls />
         </div>
         {/* <button disabled onClick={() => createBucket()}>Create Bucket in S3</button>
         <button disabled onClick={() => copyObject()}>Copy picture from S3</button> */}
