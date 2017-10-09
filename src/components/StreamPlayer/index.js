@@ -11,6 +11,7 @@ class StreamPlayer extends Component {
           <img alt='Stream Thumbnail' src={require('../../assets/dog-tennis-olympics.jpg')} className="thumbnail" />
           <img alt='Tennis ball' src={require('../../assets/tennis-ball.png')} className="tennis-ball" />
         </div>
+        <p>Not yet implemented.</p>
       </div>
     );
   }
