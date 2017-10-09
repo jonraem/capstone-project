@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 
-import { createBucket, copyObject } from '../../utils/aws';
 import './index.css';
 
 const videoUrl = `${process.env.REACT_APP_VIDEO_BASE_PATH + "1" + process.env.REACT_APP_VIDEO_SUFFIX}`;
