@@ -10,6 +10,10 @@ class VideoPlayer extends Component {
       <div className="VideoPlayer">
         <div className="VideoPlayer-view">
           <video src={'http://vss2017.oss-cn-shanghai.aliyuncs.com/vid.mp4'} type="video/mp4" width="640" height="480" controls />
+          <div className="VideoPlayer-button_row">
+            <i className="material-icons prev">skip_previous</i>
+            <i className="material-icons next">skip_next</i>
+          </div>
         </div>
       </div>
     );

@@ -1,0 +1,23 @@
+.VideoPlayer-view {
+  height: 34rem !important;
+}
+
+.VideoPlayer-button_row {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 38%;
+  width: 100%;
+}
+
+.prev, .next {
+  font-size: 5rem;
+}
+
+@media (max-width: 900px) {
+  .VideoPlayer-button_row {
+    justify-content: space-around;
+    margin-top: 1rem;
+    position: static;
+  }
+}
