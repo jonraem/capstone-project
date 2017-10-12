@@ -10,8 +10,16 @@
   width: 100%;
 }
 
+.VideoPlayer-button_row > span {
+  cursor: pointer;
+}
+
 .prev, .next {
   font-size: 5rem;
+}
+
+.disabled {
+  color: lightgrey;
 }
 
 @media (max-width: 900px) {
